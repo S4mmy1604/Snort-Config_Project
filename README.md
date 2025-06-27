@@ -1,6 +1,6 @@
 # Snort-Config_Project
 
-# Snort NIDS Setup on Kali Linux
+Snort NIDS Setup on Kali Linux
 
 This project documents the complete process of installing, configuring, and running **Snort** (version 2.9.20 GRE) as a Network Intrusion Detection System (NIDS) on **Kali Linux**.
 
@@ -33,7 +33,7 @@ Snort is a powerful open-source network intrusion detection system (NIDS) capabl
 
 ## Prerequisites
 
-- Kali Linux (Tested on Rolling Release)
+- Kali Linux 
 - Root or sudo privileges
 
 ---
@@ -114,10 +114,6 @@ sudo /usr/local/bin/snort -i eth0 -c /etc/snort/snort.conf -A console
 Edit `local.rules` to add your own detection rules:
 ```bash
 sudo nano /etc/snort/rules/local.rules
-```
-Example:
-```conf
-alert icmp any any -> any any (msg:"ICMP Packet Detected"; sid:1000001; rev:1;)
 ```
 
 ---
