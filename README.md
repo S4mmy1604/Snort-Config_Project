@@ -137,13 +137,9 @@ Check console output for alerts (if matching rules exist).
 
 ---
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+
 
 ---
 
-##  Acknowledgments
-- [Snort Official Docs](https://www.snort.org/documents)
-- Community rules provided by Cisco Talos
 
 
